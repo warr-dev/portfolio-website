@@ -32,11 +32,11 @@
     //     color: blue;
     // }
 
-    ul>li:hover::after {
+    ul>a:hover::after {
         content: "<";
     }
 
-    ul>li:hover::before {
+    ul>a:hover::before {
         content: ">";
     }
 }
