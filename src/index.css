@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg {
+    background-image: url('/cover2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 654px;
+    /* animation: moveLeft 2s ease .5s;
+    animation-fill-mode: forwards; */
+}
+.hero-text{
+    translate: 0 200px;
+}
+@media (min-width: 1024px) {
+    .hero-text{
+        translate: 0 0;
+    }
+}
