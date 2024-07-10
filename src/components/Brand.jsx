@@ -5,7 +5,7 @@ function Brand({ position = 'bottom-right' }) {
 
     return (
         <div class={`absolute ${classes[position]}`}>
-            <Logo color="white" className="m-4 h-8 md:m-8 md:h-16 animate-bounce" />
+            <a href="/"><Logo color="white" className="m-4 h-8 md:m-8 md:h-16 animate-bounce" /></a>
         </div>
     );
 }
