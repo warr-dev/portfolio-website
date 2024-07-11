@@ -2,7 +2,7 @@
 function Projects() {
 
     return (
-        <div>Projects</div>
+        <div class="min-h-screen text-white p-20 ">Projects</div>
     );
 }
 export default Projects;

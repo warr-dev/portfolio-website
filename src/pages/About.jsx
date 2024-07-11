@@ -2,7 +2,7 @@
  function About() {
 
     return (
-        <div>About</div>
+        <div class="min-h-screen">About</div>
     );
 }
     export default About;
