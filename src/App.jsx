@@ -11,10 +11,10 @@ function App() {
 
     return (
         <Router root={MainLayout}>
-            <Route path="/" component={() => <Navigate href='/home' />} />
-            <Route path="/about" component={About} />
-            <Route path="/projects" component={Projects} />
-            <Route path="/home" component={Home} />
+            <Route path="" component={() => <Navigate href='/home' />} />
+            <Route path="about" component={About} />
+            <Route path="projects" component={Projects} />
+            <Route path="home" component={Home} />
             <Route path="*404" element={()=><div>Not Found</div>} />
         </Router>
     );
