@@ -1,7 +1,15 @@
-## Usage
+## About
 
+This is a my portfolio website using solidjs
+- uses github actions as CICD to deploy on my hosting provider
+- can be found live at [Warrdev Portfolio](https://portfolio.warrdev.site)
+
+## running on dev
+
+- navigate project using terminal
 ```bash
 $ npm install # or pnpm install or yarn install
+$ npm run dev
 ```
 
 ### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
