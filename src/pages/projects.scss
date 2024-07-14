@@ -1,0 +1,34 @@
+.project-images {
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-points-x: repeat(300px);
+    overflow-x: auto;
+    width: 300px;
+}
+
+.project-image {
+    width: 300px;
+}
+
+.project-images::-webkit-scrollbar {
+    width: 10px;
+    height: 2px;
+}
+
+.project-images::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 10px;
+}
+
+.project-images::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.details {
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Number of lines to show */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
