@@ -1,5 +1,6 @@
-import { AiFillGithub } from 'solid-icons/ai'
+import { AiFillGithub, AiOutlineMail } from 'solid-icons/ai'
 import { AiFillLinkedin } from 'solid-icons/ai'
+import { IoCall } from 'solid-icons/io';
 function Socials() {
 
     return (
@@ -8,6 +9,8 @@ function Socials() {
                 <hr class="w-8 my-2 border-t-3 rotate-90" />
                 <a href="https://github.com/warr-dev"><AiFillGithub size='2rem' color='white' /></a>
                 <a href="https://www.linkedin.com/in/warrdev/"><AiFillLinkedin size='2rem' color='white' /></a>
+                <a href="tel:+639561645935"><IoCall size='2rem' color='white' /></a>
+                <a href="mailto:warrdev08@gmail.com"><AiOutlineMail size='2rem' color='white' /></a>
                 <hr class="w-4 my-2 border-t-3 rotate-90" />
             </div>
         </div>
