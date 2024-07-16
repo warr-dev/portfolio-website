@@ -11,15 +11,15 @@ function Projects() {
     console.log(projects());
 
     return (
-        <div class="h-screen text-white p-20 overflow-y-scroll">
-            <header class="header w-full flex flex-col items-center py-8 gap-2">
-                <div class="text-4xl font-semibold">Projects</div>
-                <div class="text-md">Here are the projects that i have done.</div>
+        <div class="content">
+            <header class="header">
+                <div class="title">Projects</div>
+                <div>Here are the projects that i have done.</div>
             </header>
 
             {!projects()
                 ? <h1 class="text-center w-full">Coming soon...</h1>
-                : <section class="content grid grid-cols-1 md:grid-cols-2 gap-4">
+                : <section class="grid grid-cols-1 md:grid-cols-2 gap-4">
                     {projects().map(({ title, details, images, tech, live, source, isFavorite }) => <ProjectCard title={title} details={details} tech={tech} images={images} live={live} source={source} isFavorite={isFavorite} />)}
                 </section>
             }
